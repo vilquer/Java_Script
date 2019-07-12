@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
@@ -10,28 +10,74 @@
 	<!-- 	<script language="javascript" src="js/aula1.js"></script>  exemplo escrevendo o código em arquivo separado-->
 
 	<script type="text/javascript">
-		//string
-		var texto = "Aula de Java Sript";
-		alert(texto);
-		//floar
-		var numfloart = 7.8;
-		console.log(numfloart);
-		//int
-		var numint = -3;
-		console.log(numint);
-		//boolean
-		var flag = true;
-		console.log(flag);
+		// //string
+		// var texto = "Aula de Java Sript";
+		// console.log(texto);
+		// //floar
+		// var numfloart = 7.8;
+		// console.log(numfloart);
+		// //int
+		// var numint = -3;
+		// console.log(numint);
+		// //boolean
+		// var flag = true;
+		// console.log(flag);
+
+		// var texto1 = "olá!";
+		// var texto2 = prompt('Digite seu Nome:');
 
 
-		document.write("<h1>teste</h1>");
+		// document.write("<h1>"+texto+"</h1>");
+		// document.write("<p></p>");
+		// document.write("<h4>"+texto1+ " " + texto2 +"</h4>");
 
-		console.log(texto +" "+ numint)
+
+		// console.log(texto +" "+ numint)
+
+		//**************************************************************************
+		// bloco cometado antes a aula de arays
+
+		// var lista_frutas = Array();
+
+		// lista_frutas[1] = 'banana';
+		// lista_frutas[2] = 'morango';
+		// lista_frutas[3] = 'maçã';
+		// lista_frutas[4] = 'uva';
+
+		// document.write(lista_frutas[1]);
+		// document.write("<p></p>");
+		// document.write(lista_frutas[2]);
+		// document.write("<p></p>");
+		// document.write(lista_frutas[3]);
+		// document.write("<p></p>");
+		// document.write(lista_frutas[4]);
+		// document.write("<p></p>");
+		// document.write(lista_frutas[5]); // vai dar undefined
+
+		// //outra forma de decalaração 
+		// var lista_frutas01 = Array('banana1','morango1','maçã1','uva1');
+		// document.write(lista_frutas01[0]); // aqui inicia no zero
+		// document.write("<p></p>");
+		// document.write(lista_frutas01[1]);
+
+
+		//*************Array multidimencional
+		var lista_coisas = []; //poderia ser assim - var lista_coisas = Array();
+
+		lista_coisas['frutas'] = Array('banana1','morango1','maçã1');
+		lista_coisas['legumes'] = Array('cenoura','batata','beterraba');
+        document.write(lista_coisas['legumes'][1]);
+        		
+
+
+
+
 	</script>
 
 
 </head>
 <body>
-<h1>teste</h1>
+
+
 </body>
 </html>
